@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background-color: #f7f3ed;
+  /* background-color: red; */
+  color: #29231f;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 8%;
+  background-color: #ffffff;
+}
+
+.logo {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 1px; */
+  /* padding: -11px; */
+  color: #29231f;
+  font-family: Georgia, "Times New Roman", serif;
+  text-decoration: none;
+  /* background-color: red; */
+  margin-top: -11px;
+}
+
+.logo-name {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  /* background-color: yellow; */
+  margin-top: -px;
+}
+
+.logo-o {
+  color: #9a6a4b;
+}
+
+.logo-title {
+  color: #75614f;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+  letter-spacing: 2px;
+  /* background-color: aqua; */
+  margin-top: -22px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+nav a {
+  color: #49382d;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.section1 {
+
+  /* TAWSIT FO9 LTHT */
+  /* justify-content: center;  TWSIT JNB*/
+  height: 566px;
+  /* padding: 45px 8%; */
+
+  /* background-image: url("https://images.pexels.com/photos/4004225/pexels-photo-4004225.jpeg?auto=compress&cs=tinysrgb&w=1800"); */
+  background-image: url("images/IMAGE1.png");
+  background-size: cover;
+  /* background-color: red; */
+}
+
+.section1-text {
+  max-width: 50%;
+  margin: 0 0 0 22px;
+  /* background-color: #f7f3ed; */
+}
+
+.section1 h1 {
+  margin: 0 0 15px;
+  color: #35281f;
+  font-size: 70px;
+}
+
+.section1 p {
+  margin: 0 0 22px;
+  font-size: 30px;
+  color: #4b2913;
+}
+
+.button {
+  width: 180px;
+  padding: 12px 20px;
+  border-radius: 9px;
+  background-color: #49382d;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.products {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 45px 25px;
+}
+
+.products h2,
+.about h2,
+.contact h2 {
+  color: #35281f;
+  font-size: 28px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.product-card {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 12px #d8cec3;
+}
+
+.product-card img {
+  width: 100%;
+  height: 230px;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-info {
+  padding: 12px;
+}
+
+.product-info h3 {
+  margin: 0 0 10px;
+  color: #35281f;
+  font-size: 21px;
+}
+
+.product-info p {
+  font-size: 15px;
+}
+
+.product-info .price {
+  color: #49382d;
+  font-size: 17px;
+}
+
+.product-info a {
+  color: #49382d;
+  /* color: white; */
+  font-size: 15px;
+  text-decoration: none;
+  background-color: pink;
+  padding: 6px;
+  border-radius: 6px;
+}
+.contact {
+  border-top: 1px solid rebeccapurple;
+}
+.about,
+.contact {
+  padding: 20px 8% 35px;
+  text-align: center;
+}
+
+.disp{
+  max-width: 50px;
+  max-height: 50px;
+  float:right;
+  margin-top: -30px ;
+  
+}
